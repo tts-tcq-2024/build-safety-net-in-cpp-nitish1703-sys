@@ -27,7 +27,7 @@ bool notAlpha( char c )
     return !isalpha( c ); 
 }
  
-std::string generateSoundex(std::string name)
+std::string generateSoundex(const std::string& name)
 {
     if (name.empty()) 
     {
